@@ -1,0 +1,12 @@
+{
+  "version": 8,
+  "configurePresets": [
+    {
+      "name": "teban",
+      "displayName": "Custom configure preset",
+      "description": "Sets Ninja generator, build and install directory",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build"
+    }
+  ]
+}
